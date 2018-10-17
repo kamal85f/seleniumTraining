@@ -9,7 +9,7 @@ searchTextField = browser.find_element_by_id("lst-ib")
 searchTextField.send_keys("python")
 searchTextField.send_keys(Keys.RETURN)
 
-#browser.close() 
+browser.close() 
 
 
 
